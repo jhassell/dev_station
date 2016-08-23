@@ -10,7 +10,7 @@ import sys
 
 import requests
 
-PROJECT_ID = "8503786"
+PROJECT_ID = ""
 
 ONE_DAY = datetime.timedelta(days=1)
 
