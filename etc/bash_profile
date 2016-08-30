@@ -1,0 +1,12 @@
+export PYENV_ROOT="${HOME}/.pyenv"
+export PATH="${PYENV_ROOT}/bin:${PATH}"
+eval "$(pyenv init -)"
+source /usr/local/opt/autoenv/activate.sh
+
+#export $PATH="${HOME}/bin:${PATH}"
+
+# This is virtualenv configuration
+export WORKON_HOME=${HOME}/.virtualenvs
+export PROJECT_HOME=${HOME}/PycharmProjects
+
+cd ${HOME}

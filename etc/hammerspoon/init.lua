@@ -144,20 +144,20 @@ function fix_layout()
     end)
 end
 
-fix_layout()
+--fix_layout()
 
-hs.hotkey.bind({ "cmd" }, "L", fix_layout)
+--hs.hotkey.bind({ "cmd" }, "L", fix_layout)
 
-hs.screen.watcher.new(fix_layout):start()
+--hs.screen.watcher.new(fix_layout):start()
 
-window_layout:start()
+--window_layout:start()
 
-hs.hotkey.bind({ "ctrl", "alt", "cmd" }, "P", function()
-    window_layout:pause()
-end)
-hs.hotkey.bind({ "ctrl", "alt", "cmd" }, "R", function()
-    window_layout:resume()
-end)
+--hs.hotkey.bind({ "ctrl", "alt", "cmd" }, "P", function()
+--    window_layout:pause()
+--end)
+--hs.hotkey.bind({ "ctrl", "alt", "cmd" }, "R", function()
+--    window_layout:resume()
+--end)
 
 -- Get around paste blocking
 hs.hotkey.bind({ "cmd", "alt" }, "V", function()
